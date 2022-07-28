@@ -1,6 +1,9 @@
 {
   "name": "cat-editor",
   "private": false,
+  "repository": {
+    "url": "https://github.com/Tchaikovsky1114/catlog"
+  },
   "publishConfig": {
     "access": "public"
   },
