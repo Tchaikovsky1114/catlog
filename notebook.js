@@ -1,0 +1,1 @@
+[{"id":"nwo","type":"code","content":"const arr = [1,2,3]\r\nshow(<div>hi {arr}</div>)"},{"id":"gy4","type":"text","content":""}]

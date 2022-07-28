@@ -1,0 +1,11 @@
+{
+  "name": "cat-editor",
+  "private": false,
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  },
+  "scripts": {
+    "start": "lerna run start --parallel"
+  },
+  "version": "0.0.2"
+}
