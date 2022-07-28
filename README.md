@@ -8,6 +8,11 @@
 - 오른쪽 상단의 버튼을 사용하여 셀 재정렬 또는 삭제할 수 있습니다. 🛠
 - 각 셀 사이의 구분선에 마우스를 올리시면 새로운 셀을 추가할 수 있는 기능이 나타납니다.
 
+
+
+![](https://velog.velcdn.com/images/tchaikovsky/post/e87dd443-7da5-4575-b27b-540649e970c1/image.gif)
+
+
 ## Get started
 
 `npx cat-editor serve [-p port]`
