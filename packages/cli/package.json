@@ -1,6 +1,6 @@
 {
   "name": "cat-editor",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "",
   "publishConfig": {
     "access": "public"
@@ -17,10 +17,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@cat-editor/local-client": "^2.1.2"
+    "@cat-editor/local-client": "^2.1.3"
   },
   "devDependencies": {
-    "@cat-editor/local-api": "^2.1.2",
+    "@cat-editor/local-api": "^2.1.3",
     "@types/node": "^18.6.0",
     "commander": "^9.4.0",
     "esbuild": "^0.14.50",
