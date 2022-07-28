@@ -25,7 +25,7 @@
 - react v18이 내장되어 있습니다.(react와 reac-dom을 불러오지 않아도 바로 작성 가능합니다.)
 - 모든 코드는 react-persist에 의해 3초마다 저장되고 있습니다.
 - react 패키지 뿐만 아니라 npmjs에 등록 된 모든 패키지를 가져올 수 있습니다.
-
+- CodeCell 작성칸에 마우스가 Hover되면, Prettier를 적용할 수 있는 top-right 방향에 코드정리 버튼이 활성화됩니다.
 ### Example
 ```tsx
 
