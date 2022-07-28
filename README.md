@@ -1,29 +1,30 @@
 # Code And Text Editor (https://www.npmjs.com/package/cat-editor)
-### This is an interactive coding environment.
-### You can write Javascript, see it excuted, and write comprehensive documentation using markdown.
+### 자바스크립트 코드와 markdown을 함께 사용할 수 있는 에디터입니다.
+### 코드를 작성하고, 실행 결과를 나타내고, 마크다운을 사용하여 포괄적인 문서를 작성할 수 있습니다.
 
-- Click any text cell (including this one) to edit it
-- The code in each code editor is all joined together into one file. if you define a variable in cell #1, you can refer to it in any following cell
-- you can show any React component, string, or anithing else by calling the `show` function. this is a function build in to this environment.
-- Call show multiple times to show multiple values
-- Re-order or delete cells using the buttons on the top right
-- Add new cells by hovering on the divider between each cell
-
+- 편집하려면 텍스트 셀을 클릭하세요. markDown 문법으로 작성 가능합니다. ☺
+- 각 코드 편집기의 코드는 모두 하나의 파일로 결합됩니다. 첫번째 CodeCell에서 변수를 정의하면 다른 셀에서 해당 변수를 참조할 수 있습니다! 😄
+- 에디터만의 함수 `show`를 호출하여 모든 React 구성 요소, 문자열 또는 기타 항목을 표시할 수 있습니다.
+- 오른쪽 상단의 버튼을 사용하여 셀 재정렬 또는 삭제할 수 있습니다. 🛠
+- 각 셀 사이의 구분선에 마우스를 올리시면 새로운 셀을 추가할 수 있는 기능이 나타납니다.
 
 ## Get started
 
 `npx cat-editor serve [-p port]`
 
-![](https://velog.velcdn.com/images/tchaikovsky/post/2456268a-a13e-4e22-877a-452d0a7ff0dc/image.png)
+![](https://velog.velcdn.com/images/tchaikovsky/post/4edc800c-3048-4a0c-8a0a-e7d55ff43f29/image.png)
 
 
 ## How it works ?
 
+- react v18이 내장되어 있습니다.(react와 reac-dom을 불러오지 않아도 바로 작성 가능합니다.)
+- 모든 코드는 react-persist에 의해 3초마다 저장되고 있습니다.
+- react 패키지 뿐만 아니라 npmjs에 등록 된 모든 패키지를 가져올 수 있습니다.
 
 ### Example
 ```tsx
-// react v 18.0이 내장되어 있습니다.
-// react 패키지 뿐만 아니라 npmjs에 등록 된 모든 패키지를 가져올 수 있습니다.
+
+
 import {useState,useEffect} from 'react'
 import axios from 'axios'
 const Counter = () => {
