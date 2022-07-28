@@ -41,7 +41,7 @@ const CodeCell = ({ cell }: CodeCellProps) => {
     const timer = setTimeout(async () => {
        dispatch(asyncBundleThunk({
           id:cell.id,
-          code:  unifiedCode,
+          code: unifiedCode,
           err: ''
       }));
       dispatch(saveCells())
@@ -64,9 +64,7 @@ const CodeCell = ({ cell }: CodeCellProps) => {
             content={cell.content}
           />
         </Resizable>
-        
         {!bundle || bundle.loading ? <LoadingSpinner /> : <Preview code={bundle.code} statusError={bundle.err} />}
-        
       </div>
     </Resizable>
   );

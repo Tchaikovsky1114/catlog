@@ -27,7 +27,12 @@ const useUnifiedCode = (cellId:string) => {
       }
     `
     const showFuncNoop = ` var show = () => {}`
-    const unifiedCodeArray = [];
+    const unifiedCodeArray = [
+      `
+      const root = document.querySelector('#root')
+      const reactRoot = _createRoot(root)
+      `
+    ];
     
     for(let oCell of orderedCells) {
       if(oCell.type === 'code') {

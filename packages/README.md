@@ -1,5 +1,4 @@
-
-# Code And Text Editor 
+# Code And Text Editor (https://www.npmjs.com/package/cat-editor)
 ## This is an interactive coding environment.
 ## You can write Javascript, see it excuted, and write comprehensive documentation using markdown.
 

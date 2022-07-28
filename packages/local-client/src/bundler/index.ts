@@ -15,8 +15,6 @@ export const codeProcessor = async (rawCode: string) => {
   }
   let result;
 
-  
-  
   try {
 
     result = await esbuild.build({
