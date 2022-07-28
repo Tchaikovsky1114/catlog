@@ -11,7 +11,7 @@ export const serveCommend = new Command().command('serve [filename]').descriptio
     const dir = path.join(process.cwd(), path.dirname(filename))
     await serve(parseInt(options.port),path.basename(filename), dir, !isProduction);
     console.log(`
-    ${filename}를 실행합니다. http://localhost:${options.port}로 이동하셔서 파일을 작성하세요.
+    ${filename}를 실행합니다. http://localhost:${options.port} 로 이동하셔서 코드를 작성하세요.
     `)
   }catch(err){
     if(err instanceof Error){
