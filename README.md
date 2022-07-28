@@ -9,8 +9,7 @@
 - 각 셀 사이의 구분선에 마우스를 올리시면 새로운 셀을 추가할 수 있는 기능이 나타납니다.
 
 
-
-![](https://velog.velcdn.com/images/tchaikovsky/post/e87dd443-7da5-4575-b27b-540649e970c1/image.gif)
+___
 
 
 ## Get started
@@ -26,6 +25,8 @@
 - 모든 코드는 react-persist에 의해 3초마다 저장되고 있습니다.
 - react 패키지 뿐만 아니라 npmjs에 등록 된 모든 패키지를 가져올 수 있습니다.
 - CodeCell 작성칸에 마우스가 Hover되면, Prettier를 적용할 수 있는 top-right 방향에 코드정리 버튼이 활성화됩니다.
+
+___
 ### Example
 ```tsx
 
@@ -51,3 +52,7 @@ const Counter = () => {
 ```tsx
 show(<Counter/>)
 ```
+
+
+![](https://velog.velcdn.com/images/tchaikovsky/post/e87dd443-7da5-4575-b27b-540649e970c1/image.gif)
+
