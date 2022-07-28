@@ -17,6 +17,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    
     "@cat-editor/local-client": "^2.0.2-alpha.0"
   },
   "devDependencies": {

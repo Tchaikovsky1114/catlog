@@ -5,7 +5,6 @@ import { fetchPlugin } from './plugins/fetch-plugin';
 let initialized: boolean = false;
 
 
-const env = ["process", "env", "NODE_ENV"].join(".")
 
 export const codeProcessor = async (rawCode: string) => {
   if (!initialized) {
@@ -29,7 +28,7 @@ export const codeProcessor = async (rawCode: string) => {
 
       plugins: [unpkgPathPlugin(), fetchPlugin(rawCode)],
       define: {
-        [env]: '"production"',
+        'process.env.NODE_ENV': '"production"',
         global: 'window',
       },
       jsxFactory: '_React.createElement',

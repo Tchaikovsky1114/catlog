@@ -1,6 +1,9 @@
 {
   "name": "cat-editor",
   "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "lerna": "^3.22.1"
   },
