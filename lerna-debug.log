@@ -1,6 +1,10 @@
-32 error Error: Command failed: git add -- packages/local-client/package.json packages/local-client/package-lock.json packages/local-api/package.json packages/local-api/package-lock.json packages/cli/package.json packages/cli/package-lock.json lerna.json
-32 error fatal: Pathspec 'packages/local-client/package.json' is in submodule 'packages/local-client'
-32 error
-32 error     at makeError (C:\Users\owner\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:174:9)
-32 error     at C:\Users\owner\AppData\Roaming\npm\node_modules\lerna\node_modules\execa\index.js:278:16
-32 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+35 error Error: Command failed with exit code 128: git commit -m v2.1.4
+35 error error: Committing is not possible because you have unmerged files.
+35 error hint: Fix them up in the work tree, and then use 'git add/rm <file>'
+35 error hint: as appropriate to mark resolution and make a commit.
+35 error fatal: Exiting because of an unresolved conflict.
+35 error U	README.md
+35 error     at makeError (C:\copypen\catlog\node_modules\execa\lib\error.js:60:11)
+35 error     at handlePromise (C:\copypen\catlog\node_modules\execa\index.js:118:26)
+35 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+35 error     at async Promise.all (index 0)
