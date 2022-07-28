@@ -10,5 +10,6 @@
 - Add new cells by hovering on the divider between each cell
 
 ```tsx
-
+const arr = [1,2,3]
+show(arr) // [1,2,3]
 ```
